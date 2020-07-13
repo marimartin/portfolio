@@ -14,6 +14,10 @@ p {
     font-family: "Avenir";
 }
 
+.container {
+    padding-top: 20px;
+}
+
 img {
     width: 100%;
     margin-right: 20px;
@@ -36,6 +40,10 @@ footer {
 
 /* About Page */
 
+li {
+    float: left;
+}
+
 .about {
     width: 75%;
     display: inline-block;
@@ -56,20 +64,47 @@ footer {
 }
 
 /* Portfolio Page */
-.row {
-    margin: 20px;
-    float: left;
-}
+
 .portfolio {
     width: 75%;
     display: inline-block;
-    margin-left: 0px;
     background-color: gainsboro;
     padding: 20px;
-    border-style: solid;
-    border-color: grey;
-    border-width: 2px;
+    border: solid grey 2px
 }
+
+.row {
+    margin: 20px;
+    /* float: left; */
+}
+
+.col-md-6 {
+    margin-bottom: 20px;
+}
+
+.modified-row img {
+    /* margin-bottom: 20px; */
+    margin-top: 20px;
+    display: inline-block;
+    margin-right: 0;
+    
+}
+
+.text {
+    position: relative;
+    /* bottom: 75px;
+    left: 16px; */
+    background-color: #17a2b8;
+    width: 100%;
+    /* margin-right: 20px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: Avenir sans-serif;
+    color: white;
+    margin-top: -70px;
+    z-index: 100;
+  }
 /* Contact Page */
 
 .contact {
@@ -83,16 +118,3 @@ footer {
     border-width: 2px;
 }
 
-.text {
-    position: relative;
-    bottom: 75px;
-    left: 16px;
-    background-color: #17a2b8;
-    width: 90%;
-    margin-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-    font-family: Avenir sans-serif;
-    color: white;
-  }
