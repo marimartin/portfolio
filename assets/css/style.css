@@ -3,6 +3,7 @@
 
 body {
     background-image: url("https://www.commercialwalldecor.com/Images/product/poplin-light-grey-woven-texture-zypk-l.jpg");
+    margin-bottom: 70px;
 }
 
 h2 {
@@ -26,6 +27,14 @@ img {
     border-width: 2px;
 }
 
+/* Navbar */
+
+.navbar-brand {
+    font-family: Avenir, sans-serif;
+  }
+
+/* Footer */
+
 footer {
   position: fixed;
   left: 0;
@@ -37,12 +46,7 @@ footer {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-
 /* About Page */
-
-li {
-    float: left;
-}
 
 .about {
     width: 75%;
@@ -56,11 +60,13 @@ li {
 }
 
 .float-left {
-    width: 40%;
+    width: 300px;
     margin-right: 20px;
     border-style: solid;
     border-color: grey;
     border-width: 2px;
+    margin-bottom: 10px;
+    margin-top: 5px;
 }
 
 /* Portfolio Page */
@@ -70,12 +76,11 @@ li {
     display: inline-block;
     background-color: gainsboro;
     padding: 20px;
-    border: solid grey 2px
+    border: solid grey 2px;
 }
 
 .row {
     margin: 20px;
-    /* float: left; */
 }
 
 .col-md-6 {
@@ -83,20 +88,15 @@ li {
 }
 
 .modified-row img {
-    /* margin-bottom: 20px; */
     margin-top: 20px;
     display: inline-block;
     margin-right: 0;
-    
 }
 
 .text {
     position: relative;
-    /* bottom: 75px;
-    left: 16px; */
     background-color: #17a2b8;
     width: 100%;
-    /* margin-right: 20px; */
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
