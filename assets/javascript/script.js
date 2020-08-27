@@ -9,7 +9,7 @@ $(".fa-github").click(function () {
 });
 
 $(".fa-envelope").click(function () {
-    window.location.replace("pages/contact.html");
+    window.location.replace("/Users/mari/portfolio/pages/contact.html");
 });
 
 $("#book-market").click(function () {
@@ -17,7 +17,7 @@ $("#book-market").click(function () {
 });
 
 $("#weather-dashboard").click(function () {
-    window.location.replace("https://github.com/marimartin/weather-dashboard");
+    window.location.replace("https://github.com/marimartin/weather-dashboard-2");
 });
 
 $("#day-planner").click(function () {
